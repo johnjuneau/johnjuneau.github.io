@@ -5,7 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-## Working Paper
+## Working Papers
+
+## Works in Progress
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
