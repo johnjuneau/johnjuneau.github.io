@@ -14,4 +14,4 @@ My research focuses on topics in Applied Econometrics.
 
 My C.V. is here.
 
-You can reach me at vohra@ucsd.edu.
+You can reach me at hamitchell@ucsd.edu.
