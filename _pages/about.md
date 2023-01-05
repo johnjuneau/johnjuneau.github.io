@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,8 +9,6 @@ redirect_from:
 ---
 
 I am a PhD student at the Department of Economics, University of California San Diego.
-
-My research focuses on topics in Applied Econometrics.
 
 My C.V. is here.
 
