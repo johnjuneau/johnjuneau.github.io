@@ -18,11 +18,19 @@ redirect_from:
     <h1>John Juneau</h1>
     <p class="profile-role">Economics PhD Student<br><span class="institution">UC San Diego</span></p>
 
-    <p>I am a PhD student in the Department of Economics at the University of California San Diego. My research focuses on macroeconomics and spatial economics, and I am broadly interested in the causes and consequences of poverty and inequality in the United States. My work is supported by a National Science Foundation Graduate Research Fellowship.</p>
+    <p>
+    I am a macroeconomist with interests in labor, spatial, and public topics.
+    I study how differences across households and workers shape aggregate adjustment, from long-run labor reallocation to the effects of fiscal policy.
+    </p>
+<!-- 
+    I am a PhD student in the Department of Economics at the University of California San Diego. My research focuses on macroeconomics and spatial economics, and I am broadly interested in the causes and consequences of poverty and inequality in the United States. My work is supported by a National Science Foundation Graduate Research Fellowship.</p> -->
 
-    <p>Before beginning my PhD, I worked as a Senior Research Assistant in the Fiscal Analysis section of the Federal Reserve Board’s Division of Research and Statistics. I received my BA in economics, with minors in mathematics and poverty studies, from Washington and Lee University.</p>
+    <p>Previously, I worked at the Federal Reserve Board in the Division of Research and Statistics. I also studied econonics at Washington and Lee University.</p>
 
-    <p class="profile-links"><a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a> <span aria-hidden="true">·</span> <a href="https://github.com/johnjuneau">GitHub</a></p>
+    <p class="profile-links">
+    <a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a> 
+  <!-- <span aria-hidden="true">·</span> <a href="https://github.com/johnjuneau">GitHub</a> -->
+    </p>
   </div>
 </section>
 
