@@ -19,8 +19,8 @@ redirect_from:
     <p class="profile-role">Economics PhD Student<br><span class="institution">UC San Diego</span></p>
 
     <p>
-    I am a macroeconomist with interests in labor, spatial, and public economics.
-    I study how differences across households and workers shape aggregate adjustment, from long-run labor reallocation to the effects of fiscal policy.
+    I am a macroeconomist working at the intersection of labor, spatial, and public economics.
+    I primarily study how differences across households and workers shape aggregate adjustments, from long-run labor reallocation to the effects of fiscal policy.
     </p>
 <!-- 
     I am a PhD student in the Department of Economics at the University of California San Diego. My research focuses on macroeconomics and spatial economics, and I am broadly interested in the causes and consequences of poverty and inequality in the United States. My work is supported by a National Science Foundation Graduate Research Fellowship.</p> -->
