@@ -16,7 +16,7 @@ redirect_from:
 
   <div class="profile-copy">
     <h1>John Juneau</h1>
-    <p class="profile-role">Economics PhD Student<br>University of California San Diego</p>
+    <p class="profile-role">Economics PhD Student<br><span class="institution">UC San Diego</span></p>
 
     <p>I am a PhD student in the Department of Economics at the University of California San Diego. My research focuses on macroeconomics and spatial economics, and I am broadly interested in the causes and consequences of poverty and inequality in the United States. My work is supported by a National Science Foundation Graduate Research Fellowship.</p>
 
