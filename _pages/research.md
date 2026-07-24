@@ -3,6 +3,7 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+published: false
 ---
 
 ## Publications
@@ -18,5 +19,4 @@ author_profile: true
   4. "[Herder-Related Violence, Agricultural Work, and the Informal Sector as a Safety Net](/files/hrv_informality.pdf)" (with Jeffrey Bloem, Amy Damon, and David Francis) -->
 
 ## Works in Progress
-
 
