@@ -41,6 +41,5 @@ redirect_from:
       </summary>
       <p class="research-abstract">Between 1880 and 1940, the United States transformed from a largely agrarian economy into an industrialized one. The emergence of new cities in rural America played an important role in this transition.</p>
     </details>
-    <p><a href="/files/paper_pub_aeapandp_ejp_2023.pdf">PDF</a></p>
   </article>
 </section>
