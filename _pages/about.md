@@ -1,19 +1,39 @@
 ---
+layout: home
 permalink: /
-title: 
-excerpt: "About me"
-author_profile: true
+title: "John Juneau"
+excerpt: "John Juneau is an Economics PhD student at the University of California San Diego."
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi, I am a PhD student at the Department of Economics, University of California San Diego. My research generally pertains to macro and spatial economics; although I am broadly interested in topics related to the causes and consequences of poverty and inequality in the United States. My work is supported by a National Science Foundation Graduate Research Fellowship. You can reach me at jjuneau@ucsd.edu.
+<section class="profile-intro">
+  <div class="profile-photo">
+    <img src="/images/headshot_7_2026.jpg" alt="John Juneau">
+  </div>
 
-From 2018-2021, I worked as a Senior Research Assistant at the Federal Reserve Board of Governors in the Division of Research and Statistics' Fiscal Analysis section where I assisted staff economists with constructing forecasts of government expenditures and receipts as well as estimating the effects of fiscal policies including the COVID-19 stimulus packages. Prior to my work at the Board, I received a BA in economics with minors in mathematics and poverty studies at Washington and Lee University in Lexington, VA. 
+  <div class="profile-copy">
+    <h1>John Juneau</h1>
+    <p class="profile-role">Economics PhD Student<br>University of California San Diego</p>
 
-<!-- At present, I am exploring projects focused on the relationship between financial conditions and firms' wage markdowns, the stimulative effects of state tax shocks, and  -->
+    <p>I am a PhD student in the Department of Economics at the University of California San Diego. My research focuses on macroeconomics and spatial economics, and I am broadly interested in the causes and consequences of poverty and inequality in the United States. My work is supported by a National Science Foundation Graduate Research Fellowship.</p>
 
-<!-- My C.V. is [here](/files/Harrison_Mitchell_CV.pdf). -->
+    <p>Before beginning my PhD, I worked as a Senior Research Assistant in the Fiscal Analysis section of the Federal Reserve Board’s Division of Research and Statistics. I received my BA in economics, with minors in mathematics and poverty studies, from Washington and Lee University.</p>
 
+    <p class="profile-links"><a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a> <span aria-hidden="true">·</span> <a href="https://github.com/johnjuneau">GitHub</a></p>
+  </div>
+</section>
 
+<section class="home-research" id="research">
+  <h2>Research</h2>
+
+  <article class="research-item">
+    <h3><a href="/files/paper_pub_aeapandp_ejp_2023.pdf">Sprouting Cities: How Rural America Industrialized</a></h3>
+    <p>With <a href="https://www.fpeckert.me">Fabian Eckert</a> and <a href="https://mipeters.weebly.com">Michael Peters</a></p>
+    <p><em>American Economic Association, Papers and Proceedings</em></p>
+    <p>Between 1880 and 1940, the United States transformed from a largely agrarian economy into an industrialized one. The emergence of new cities in rural America played an important role in this transition.</p>
+    <p><a href="/files/paper_pub_aeapandp_ejp_2023.pdf">PDF</a></p>
+  </article>
+</section>
