@@ -1,0 +1,259 @@
+/* Professional academic profile layer */
+
+:root {
+  --navy: #14283d;
+  --navy-light: #234867;
+  --gold: #b58535;
+  --ink: #17212b;
+  --muted: #5d6873;
+  --paper: #fbfaf7;
+  --line: #dfe3e6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--navy-light);
+}
+
+.masthead {
+  border-bottom: 1px solid rgba(20, 40, 61, 0.12);
+  background: rgba(251, 250, 247, 0.96);
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: var(--navy);
+  }
+
+  .visible-links a::before {
+    height: 2px;
+    background: var(--gold);
+  }
+}
+
+.masthead__menu-item--lg a {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.22em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+#main {
+  max-width: 1180px;
+  margin-top: 3.5em;
+}
+
+.page__title,
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.025em;
+}
+
+.page__content a {
+  text-decoration-color: rgba(35, 72, 103, 0.35);
+  text-underline-offset: 0.16em;
+}
+
+.sidebar {
+  opacity: 1;
+}
+
+.author__avatar img {
+  border: 0;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(20, 40, 61, 0.13);
+  object-fit: cover;
+}
+
+.author__name {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.12em;
+}
+
+.author__bio,
+.author__urls {
+  color: var(--muted);
+}
+
+.home-intro {
+  max-width: 780px;
+  padding: 0.4em 0 4.5em;
+
+  h1 {
+    max-width: 740px;
+    margin: 0.18em 0 0.45em;
+    font-size: clamp(2.65rem, 7vw, 5rem);
+    line-height: 1.03;
+  }
+}
+
+.eyebrow,
+.section-label,
+.publication-meta {
+  margin-bottom: 0.6em !important;
+  color: var(--gold);
+  font-size: 0.75rem !important;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.home-lede,
+.research-intro {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.2rem !important;
+  line-height: 1.65;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em;
+  margin-top: 2em;
+
+  .btn {
+    border-radius: 999px;
+    padding: 0.78em 1.25em;
+    text-decoration: none;
+  }
+}
+
+.btn--primary {
+  border: 1px solid var(--navy);
+  background: var(--navy);
+  color: #fff !important;
+}
+
+.btn--outline {
+  border: 1px solid rgba(20, 40, 61, 0.4);
+  background: transparent;
+  color: var(--navy) !important;
+}
+
+.home-section {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.35fr) minmax(240px, 0.8fr) minmax(280px, 1.2fr);
+  gap: 2em;
+  padding: 2.8em 0;
+  border-top: 1px solid var(--line);
+
+  h2,
+  p {
+    margin-top: 0;
+  }
+}
+
+.contact-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  margin-top: 3em;
+  padding: 2.2em 2.5em;
+  border-radius: 16px;
+  background: var(--navy);
+  color: #fff;
+
+  h2 {
+    margin: 0;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+.research-intro {
+  margin-bottom: 2.5em;
+}
+
+.research-card {
+  margin: 1.5em 0 3em;
+  padding: 2.25em;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 14px 35px rgba(20, 40, 61, 0.06);
+
+  h3 {
+    margin: 0.25em 0;
+    font-size: 1.55em;
+    line-height: 1.25;
+  }
+
+  h3 a,
+  .paper-link {
+    color: var(--navy);
+    text-decoration: none;
+  }
+
+  .coauthors {
+    color: var(--muted);
+  }
+
+  .paper-link {
+    display: inline-block;
+    margin-top: 0.4em;
+    font-weight: 700;
+  }
+}
+
+.research-contact {
+  padding-top: 1em;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 900px) {
+  .home-section {
+    grid-template-columns: 1fr;
+    gap: 0.25em;
+  }
+
+  .contact-band {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  #main {
+    margin-top: 2em;
+  }
+
+  .home-intro {
+    padding-bottom: 3em;
+  }
+
+  .home-intro h1 {
+    font-size: 2.7rem;
+  }
+
+  .research-card,
+  .contact-band {
+    padding: 1.5em;
+  }
+}

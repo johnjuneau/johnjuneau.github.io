@@ -8,9 +8,9 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "John Juneau"
-title_separator          : "-"
+title_separator          : "·"
 name                     : &name "John Juneau"
-description              : &description "personal description"
+description              : &description "Economist at UC San Diego researching macroeconomics, spatial economics, poverty, and inequality."
 url                      : https://johnjuneau.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "johnjuneau/johnjuneau.github.io"
@@ -20,7 +20,6 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
-theme                    : jekyll-theme-Midnight
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -67,9 +66,10 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : John Juneau
+  links:
+    - https://github.com/johnjuneau
 
 
 # Analytics
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "John Juneau"
   avatar           : "profile_pic_032025.png"
-  bio              : "Economics PhD Student"
+  bio              : "PhD Student in Economics"
   location         : "University of California, San Diego"
   employer         :
   pubmed           : 
@@ -124,6 +124,25 @@ include:
   - _pages
   - files
 exclude:
+  - _drafts
+  - _portfolio
+  - _posts
+  - _publications
+  - _talks
+  - _teaching
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
