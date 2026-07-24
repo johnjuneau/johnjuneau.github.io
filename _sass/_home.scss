@@ -62,19 +62,25 @@
 }
 
 .research-item {
-  max-width: 800px;
+  width: 100%;
   padding: 0.5em 0 1.5em;
 }
 
 .research-item h3 {
+  display: flex;
+  gap: 0.75em;
+  align-items: baseline;
   margin-bottom: 0.35em;
   font-size: $type-size-4;
 }
 
+.research-item h3 > a {
+  white-space: nowrap;
+}
+
 .journal {
-  display: inline;
-  margin-left: 0.45em;
-  font-size: 0.65em;
+  flex: 0 0 auto;
+  font-size: 0.55em;
   font-style: italic;
   font-weight: normal;
   white-space: nowrap;
@@ -134,5 +140,19 @@
 
   .profile-photo {
     max-width: 420px;
+  }
+
+  .research-item h3 {
+    display: block;
+  }
+
+  .research-item h3 > a,
+  .journal {
+    white-space: normal;
+  }
+
+  .journal {
+    display: block;
+    margin-top: 0.45em;
   }
 }
