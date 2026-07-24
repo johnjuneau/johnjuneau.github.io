@@ -37,7 +37,7 @@
 
 .profile-role {
   margin-bottom: 1.75em;
-  color: $gray;
+  color: mix($background-color, $text-color, 25%);
 }
 
 .profile-links {
@@ -46,7 +46,7 @@
 
 .profile-links span {
   padding: 0 0.45em;
-  color: $light-gray;
+  color: $primary-color;
 }
 
 .home-research {
