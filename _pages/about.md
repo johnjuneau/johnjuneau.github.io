@@ -31,7 +31,8 @@ redirect_from:
     </p>
 
     <p class="profile-links">
-    Contact Me: <a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a> 
+    Contact Me: <a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a>
+    <span aria-hidden="true">·</span> <a href="/cv/">CV</a>
   <!-- <span aria-hidden="true">·</span> <a href="https://github.com/johnjuneau">GitHub</a> -->
     </p>
   </div>

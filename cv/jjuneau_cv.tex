@@ -1,0 +1,264 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+%-------------------------------------
+% Resum in LaTeX (XeLaTeX)
+% Author:  HF Yuan
+% Project: https://github.com/xyz-yuanhf/yuan-resume
+% Base on: https://github.com/mattyHerzig/mattys_resume
+%          http://www.jianxu.net/en/
+% License: MIT
+%------------------------------------
+
+\documentclass[a4paper, 10pt]{article}
+\usepackage{myresume}  % Style package
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+% --------------------  START  --------------------
+\begin{document}
+
+% -------------------- HEADING --------------------
+\begin{flushright}
+  \setstretch{0.6}
+  \item {\Calluna (+1) 224-330-7443}  % Phone number
+  \item {\Calluna jjuneau@ucsd.edu}  % E-mail address
+  \item {\Calluna \url{johnjuneau.github.io}}  % EWebsite
+  % \item {\Calluna http://www.example.com}  % Home page
+\end{flushright}\vspace{-45pt}
+
+\begin{flushleft}  % Rplace here with your name (and identity if required)
+  {\Calluna \fontsize{30pt}{30pt}\selectfont \textsc{John Juneau}} 
+  % \quad {\Calluna \fontsize{14.5pt}{14.5pt}\selectfont \textsc{Ph.D.}}
+  \noindent\rule{\textwidth}{0.4pt}
+\end{flushleft}
+
+% -------------------- EDUCATION --------------------
+\sectionBlock{
+\sectionTitle{Education}
+}{
+\eduHeading
+  {University of California, San Diego}{San Diego, CA}
+  {Ph.D. in Economics}{2021 - Present} %\footnotesize{\textit{(expected)}}
+\itemListStart
+  \myItem{}  
+% \myItem{Research area(s): Macroeconomics and Economic Geography}
+  % \myItem{Advisor(s): Fabian Eckert, Nir Jaimovich, Titan Alon, Juan Herre\~no}
+\itemListEnd
+
+
+\eduHeading
+  {Washington and Lee University}{Lexington, VA}
+  {B.A. in Economics with honors}{2014--2018}
+\itemListStart
+  % \myItem{GPA: 3.502/4.000}
+  \myItem{Minors in Mathematics, Poverty and Human Capability Studies}
+  % \myItem{Thesis: ``Racial Segregation, Employment, and Income in the U.S., 1970--2010''}
+  % \myItem{Advisor(s): Katie Shester, Chris Handy, Jonathan Eastwood, Art Goldsmith}
+\itemListEnd
+
+}
+
+\vspace{-0.1cm}
+
+% -------------------- RESEARCH AREAs --------------------
+\sectionBlock{
+\sectionTitle{Research Areas}
+}{
+Macroeconomics (Primary); Spatial and Trade Economics (Secondary)
+
+% \projHeading
+%     {The Geography of Desperation in America}
+%     {with Carol Graham and Sergio Pinto \newline \textit{Brookings Essay}, July 2017}
+    
+}
+\vspace{-0.1cm}
+
+% -------------------- References --------------------
+\sectionBlock{
+\sectionTitle{References}
+}{
+\begin{tabularx}{\linewidth}[t]{@{}X@{\hspace{0.7cm}}X@{}}
+  \textbf{Nir Jaimovich} & \textbf{Fabian Eckert} \\
+  \textit{Professor of Economics} & \textit{Assistant Professor of Economics} \\
+  % Anonymous Family Chancellor Endowed Chair in Macroeconomics
+  University of California, San Diego & University of California, San Diego \\
+  \textit{nijaimovich@ucsd.edu} & \textit{feckert@ucsd.edu} \\[12pt]
+  \textbf{Titan Alon} & \textbf{Juan Herre\~no} \\
+  \textit{Assistant Professor of Economics} & \textit{Assistant Professor of Economics} \\
+  University of California, San Diego & University of California, San Diego \\
+  \textit{talon@ucsd.edu} & \textit{jherrenolopera@ucsd.edu}
+\end{tabularx}
+    
+}
+% \vspace{-0.1cm}
+
+% -------------------- JMP --------------------
+\sectionBlock{
+\sectionTitle{Job Market Paper}
+}{
+  % \textbf{Of Fathers and Farms:} How Intergenerational Persistence Shapes Structural Transformation
+\projHeading
+    {Of Fathers and Farms: How Intergenerational Persistence Shapes Structural Transformation}
+    {}
+    % {with Fabian Eckert and Michael Peters \newline \textit{AEA Papers and Proceedings}, Volume 113, May 2023, pp.87-92}
+
+% \projHeading
+%     {The Geography of Desperation in America}
+%     {with Carol Graham and Sergio Pinto \newline \textit{Brookings Essay}, July 2017}
+    
+}
+
+\vspace{-0.1cm}
+
+
+% -------------------- PUBLICATIONS --------------------
+\sectionBlock{
+\sectionTitle{Publications}
+}{
+\projHeading
+    {Sprouting Cities: How Rural America Industrialized}
+    {with Fabian Eckert and Michael Peters \newline \textit{AEA Papers and Proceedings}, Volume 113, May 2023, pp.87-92}
+
+% \projHeading
+%     {The Geography of Desperation in America}
+%     {with Carol Graham and Sergio Pinto \newline \textit{Brookings Essay}, July 2017}
+    
+}
+
+% \vspace{-0.7cm}
+% -------------------- Work in Progress --------------------
+\sectionBlock{
+\sectionTitle{Work in Progress}
+}{
+% \projHeading
+% {Structural Transformation and Intergenerational Occupation Mobility}
+% %Implications for (Im)mobility and Structural Change}
+% {Ph.D. Dissertation Thesis}
+% Using linked full-count US census data, I study how childhood exposure to different occupations distorts adulthood occupation choice through foregone schooling. 
+% Moroever, I examine the influence of this micro-level friction on occupation mobility and structural change.
+
+\projHeading
+{The Stimulative Effect of State Tax Cuts Across the Income Distribution}
+{with Byron Lutz}
+
+\projHeading
+{Growing Apart: Tradable Services and the Fragmentation of the U.S. Economy }
+{with Fabian Eckert}
+
+}
+
+% \vspace{-0.7cm}
+% -------------------- Research Experience --------------------
+\sectionBlock{
+\sectionTitle{Research Experience}
+}{
+\internHeading
+  {University of California, San Diego}{San Diego, CA}{2022}
+\itemListStart
+  \myItem{Research Assistant for Fabian Eckert}
+\itemListEnd
+
+\internHeading
+  {Federal Reserve Board of Governors}{Washington, DC}{2018--2021}
+\itemListStart
+  \myItem{Senior Research Assistant, Fiscal Analysis (Division of Research and Statistics)}
+\itemListEnd
+
+\internHeading
+  {Brookings Institution}{Washington, DC}{2017}
+\itemListStart
+  \myItem{Research Assistant for Carol Graham}
+\itemListEnd
+
+\internHeading
+  {Washington and Lee University}{Lexington, VA}{2016--2018}
+\itemListStart
+  \myItem{Research Assistant for Katie Shester and Chris Handy}
+\itemListEnd
+
+}
+
+% -------------------- AWARDS & HONORS --------------------
+\sectionBlock{
+\sectionTitle{Awards\\and\\Honors}
+}{
+\awardListStart
+\justifying
+\item \emph{Summer Dissertation Fellowship}, Federal Reserve Board of Governors \hfill 2025
+\item \emph{TA Excellence Award}, University of California, San Diego \hfill 2024
+\item \emph{Graduate Research Fellowship}, National Science Foundation \hfill 2021
+\item \emph{Special Achievement Award}, Federal Reserve Board of Governors \hfill 2020
+\item \emph{Kim Family Prize}, Washington and Lee University \hfill 2018
+\item \emph{QuestBridge National College Match}, Washington and Lee University \hfill 2014
+\awardListEnd
+}
+
+% -------------------- TEACHING EXPERIENCE --------------------
+\sectionBlock{
+\sectionTitle{Teaching Experience}
+}{
+\internHeading
+  {University of California, San Diego}{San Diego, CA}{2021--Present}
+\itemListStart
+  \myItem{ECON 210C: Macroeconomics C (Graduate Core)}
+  \myItem{ECON 110A: Long Run Macroeconomics}
+  \myItem{ECON 2: Market Imperfections and Policy}
+\itemListEnd
+%   \myItem{Undergraduate Teaching Assistant for: \newline \phantom{321}Market Imperfections and Policy (ECON 2) \newline \phantom{321}Long Run Macroeconomics (ECON 110A)}
+%   \myItem{Graduate Teaching Assistant for:\newline \phantom{321}Macroeconomics C (ECON 210C)}
+% \itemListEnd
+
+\internHeading
+  {Federal Reserve Board of Governors}{Washington, DC}{2018--2020}
+\itemListStart
+  \myItem{Project Coordinator and Teaching Assistant for Data Analysis course taught to Howard University Undergraduate and Graduate students in Economics}
+\itemListEnd
+
+
+\internHeading
+  {Washington and Lee University}{Lexington, VA}{2016--2018}
+\itemListStart
+  \myItem{ECON 203: Econometrics}
+  \myItem{MATH 118: Introduction to Statistics}
+  % \myItem{Undergraduate Teaching Assistant for: \newline \phantom{321}Econometrics (ECON 203) \newline \phantom{321}Introduction to Statistics (MATH 118)}
+\itemListEnd
+
+}
+
+% -------------------- SKILLS --------------------
+\sectionBlock{
+\sectionTitle{Skills}
+}{
+\skillListStart
+\justifying
+\item \emph{Languages}: English (native), Spanish (basic).
+\item \emph{Programming (Advanced)}: {\Courier \fontsize{11pt}{11pt}\selectfont Stata}, {\Courier \fontsize{11pt}{11pt}\selectfont R}, {\Courier \fontsize{11pt}{11pt}\selectfont Excel}, \LaTeX
+\item \emph{Programming (Basic)}: {\Courier \fontsize{11pt}{11pt}\selectfont MATLAB}, {\Courier \fontsize{11pt}{11pt}\selectfont FAME}, {\Courier \fontsize{11pt}{11pt}\selectfont Python}.
+\skillListEnd
+}
+
+% -------------------- SKILLS --------------------
+\sectionBlock{
+\sectionTitle{Citizenship}
+}{
+\skillListStart
+\justifying
+\item USA
+% \item \emph{Programming (Advanced)}: {\Courier \fontsize{11pt}{11pt}\selectfont Stata}, {\Courier \fontsize{11pt}{11pt}\selectfont R}, {\Courier \fontsize{11pt}{11pt}\selectfont Excel}, \LaTeX
+% \item \emph{Programming (Basic)}: {\Courier \fontsize{11pt}{11pt}\selectfont MATLAB}, {\Courier \fontsize{11pt}{11pt}\selectfont FAME}, {\Courier \fontsize{11pt}{11pt}\selectfont Python}.
+\skillListEnd
+}
+
+% % -------------------- OTHERS --------------------
+% \sectionBlock{
+% \section{Academic Services}
+% }{
+% \skillListStart
+% \justifying
+% \item \emph{Reviewers for}: \textit{Journal of Operations Research and Optimization},
+% \item \phantom{\emph{Reviewers for}:} \textit{International Conference on Optimization and Machine Learning},
+% \item \phantom{\emph{Reviewers for}:} \;...
+% \skillListEnd
+% }
+
+\end{document}
