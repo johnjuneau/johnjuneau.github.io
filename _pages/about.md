@@ -19,7 +19,9 @@ redirect_from:
     <p class="profile-role">PhD Candidate<br><span class="institution">Department of Economics, UC San Diego</span></p>
 
     <p>
-    **I am on the 2026–2027 Economics Job Market.**
+    <strong>
+    I am on the 2026–2027 Economics Job Market.
+    </strong>
     </p>
 
     <p>
