@@ -16,19 +16,25 @@ redirect_from:
 
   <div class="profile-copy">
     <h1>John Juneau</h1>
-    <p class="profile-role">Economics PhD Student<br><span class="institution">UC San Diego</span></p>
+    <p class="profile-role">PhD Candidate<br><span class="institution">Department of Economics, UC San Diego</span></p>
 
     <p>
-    I am a macroeconomist working at the intersection of labor, spatial, and public economics.
-    I primarily study how differences across households and workers shape aggregate adjustments including long-run labor reallocation and the effects of fiscal policy.
+    **I am on the 2026–2027 Economics Job Market.**
     </p>
+
+    <p>
+    I am an applied macroeconomist studying long-run questions in labor and spatial economics. 
+    My research focuses on structural transformation using micro-to-macro approaches. 
+    </p>
+<!-- I am a macroeconomist working at the intersection of labor, spatial, and public economics.
+    I primarily study how differences across households and workers shape aggregate adjustments including long-run labor reallocation and the effects of fiscal policy. -->
 <!-- 
     I am a PhD student in the Department of Economics at the University of California San Diego. My research focuses on macroeconomics and spatial economics, and I am broadly interested in the causes and consequences of poverty and inequality in the United States. My work is supported by a National Science Foundation Graduate Research Fellowship.</p> -->
 
-    <p>
-    Previously, I worked as a Sr. Research Assistant at the Federal Reserve Board in the Division of Research and Statistics. 
-    I received my BA in economics from Washington and Lee University.
-    </p>
+<!-- <p>
+  Previously, I worked as a Sr. Research Assistant at the Federal Reserve Board in the Division of Research and Statistics. 
+  I received my BA in economics from Washington and Lee University.
+  </p> -->
 
     <p class="profile-links">
     Contact Me: <a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a>
