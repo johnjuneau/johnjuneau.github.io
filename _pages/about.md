@@ -11,7 +11,7 @@ redirect_from:
 
 <section class="profile-intro">
   <div class="profile-photo">
-    <img src="/images/headshot_7_2026.jpg" alt="John Juneau">
+    <img src="/images/headshot_0926.jpg" alt="John Juneau">
   </div>
 
   <div class="profile-copy">
