@@ -28,11 +28,13 @@
 
 .profile-contact {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.4em 1em;
+  flex-wrap: nowrap;
+  gap: 0.5em;
   justify-content: center;
   margin: 0.5em 0 0;
+  font-size: 0.72em;
   text-align: center;
+  white-space: nowrap;
 }
 
 .profile-contact a {
