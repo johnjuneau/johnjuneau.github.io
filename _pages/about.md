@@ -47,7 +47,7 @@ redirect_from:
 </section>
 
 <section class="home-research" id="research">
-  <h2>Research</h2>
+  <h2>Publications</h2>
 
   <article class="research-item">
     <h3>
@@ -60,6 +60,23 @@ redirect_from:
         <span class="abstract-label">Abstract</span>
       </summary>
       <p class="research-abstract">Between 1880 and 1940, the United States transformed from a largely agrarian economy into an industrialized one. The emergence of new cities in rural America played an important role in this transition.</p>
+    </details>
+  </article>
+</section>
+
+<section class="home-research" id="work-in-progress">
+  <h2>Work in Progress</h2>
+
+  <article class="research-item">
+    <h3>
+      <a href="/files/wip_draft_Oct2025.pdf">The Stimulative Effect of State Tax Cuts Across the Income Distribution</a>
+    </h3>
+    <details class="abstract-toggle">
+      <summary>
+        <span class="research-authors">with Byron Lutz</span>
+        <span class="abstract-label">Abstract</span>
+      </summary>
+      <p class="research-abstract">The ability of state governments to stimulate their economies through tax policy changes has long been debated. At the same time, a distinct debate considers the extent to which the distributional targeting of tax changes influences their effect on economic activity. This paper examines the intersection of these debates: to what extent does the distributional targeting of a state government income tax change mediate its effect on a state's economic activity? Using thirty years of detailed income tax return microdata and multiple panel-data research designs, including an event-study local projection approach, our results suggest that state-level employment responds positively to tax cuts targeted at the broad lower portion of the income distribution, but provide no evidence that economic activity responds to tax shocks targeted at the highest-income households.</p>
     </details>
   </article>
 </section>
