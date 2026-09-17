@@ -12,6 +12,7 @@ redirect_from:
 <section class="profile-intro">
   <div class="profile-photo">
     <img src="/images/headshot_0926.jpg" alt="John Juneau">
+    <p class="profile-contact">Contact me: <a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a></p>
   </div>
 
   <div class="profile-copy">
@@ -39,8 +40,7 @@ redirect_from:
   </p> -->
 
     <p class="profile-links">
-    Contact Me: <a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a>
-    <span aria-hidden="true">·</span> <a href="/files/John_Juneau_CV.pdf">CV</a>
+    View my <a class="cv-link" href="/files/John_Juneau_CV.pdf">CV</a> here.
   <!-- <span aria-hidden="true">·</span> <a href="https://github.com/johnjuneau">GitHub</a> -->
     </p>
   </div>
