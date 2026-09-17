@@ -12,7 +12,11 @@ redirect_from:
 <section class="profile-intro">
   <div class="profile-photo">
     <img src="/images/headshot_0926.jpg" alt="John Juneau">
-    <p class="profile-contact">Contact me: <a href="mailto:jjuneau@ucsd.edu">jjuneau@ucsd.edu</a></p>
+    <p class="profile-contact">
+      <a href="mailto:jjuneau@ucsd.edu"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+      <a href="https://scholar.google.com/citations?user=D_YYHvYAAAAJ&amp;hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
+      <a href="https://www.linkedin.com/in/john-juneau-016022100/"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+    </p>
   </div>
 
   <div class="profile-copy">
@@ -40,7 +44,7 @@ redirect_from:
   </p> -->
 
     <p class="profile-links">
-    View my <a class="cv-link" href="/files/John_Juneau_CV.pdf">CV</a> here.
+    <i class="fas fa-file-pdf" aria-hidden="true"></i> View my <a class="cv-link" href="/files/John_Juneau_CV.pdf">CV</a> here.
   <!-- <span aria-hidden="true">·</span> <a href="https://github.com/johnjuneau">GitHub</a> -->
     </p>
   </div>

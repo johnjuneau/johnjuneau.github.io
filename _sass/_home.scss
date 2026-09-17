@@ -27,7 +27,28 @@
 }
 
 .profile-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1em;
+  justify-content: center;
   margin: 0.5em 0 0;
+  text-align: center;
+}
+
+.profile-contact a {
+  display: inline-flex;
+  gap: 0.35em;
+  align-items: center;
+  text-decoration: none;
+}
+
+.profile-contact a:hover span {
+  text-decoration: underline;
+}
+
+.profile-contact i {
+  width: 1em;
+  color: $text-color;
   text-align: center;
 }
 
