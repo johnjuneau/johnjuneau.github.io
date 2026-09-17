@@ -132,8 +132,10 @@
 }
 
 .research-abstract {
-  max-width: 800px;
+  max-width: 950px;
   margin: 0.5em 0;
+  text-align: justify;
+  hyphens: auto;
 }
 
 @include breakpoint(max-width $medium) {
