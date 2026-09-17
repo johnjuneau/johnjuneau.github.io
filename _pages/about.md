@@ -93,4 +93,9 @@ redirect_from:
       <p class="research-abstract">The ability of state governments to stimulate their economies through tax policy changes has long been debated. At the same time, a distinct debate considers the extent to which the distributional targeting of tax changes influences their effect on economic activity. This paper examines the intersection of these debates: to what extent does the distributional targeting of a state government income tax change mediate its effect on a state's economic activity? Using thirty years of detailed income tax return microdata and multiple panel-data research designs, including an event-study local projection approach, our results suggest that state-level employment responds positively to tax cuts targeted at the broad lower portion of the income distribution, but provide no evidence that economic activity responds to tax shocks targeted at the highest-income households.</p>
     </details>
   </article>
+
+  <article class="research-item">
+    <h3>College Wage Premia and Tradable Services</h3>
+    <span class="research-authors">with <a href="https://www.fpeckert.me">Fabian Eckert</a></span>
+  </article>
 </section>
