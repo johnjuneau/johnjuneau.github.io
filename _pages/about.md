@@ -50,7 +50,7 @@ redirect_from:
   <h2>Job Market Paper</h2>
 
   <article class="research-item">
-    <h3>Of Fathers and Farms: How Intergenerational Persistence Shapes Structural Transformation</h3>
+    <h3><a href="/files/of-fathers-and-farms.pdf">Of Fathers and Farms: How Intergenerational Persistence Shapes Structural Transformation</a></h3>
     <details class="abstract-toggle">
       <summary>
         <span class="abstract-label">Abstract</span>
@@ -83,7 +83,7 @@ redirect_from:
 
   <article class="research-item">
     <h3>
-      <a href="/files/wip_draft_Oct2025.pdf">The Stimulative Effect of State Tax Cuts Across the Income Distribution</a>
+      <a href="/files/state-tax-cuts.pdf">The Stimulative Effect of State Tax Cuts Across the Income Distribution</a>
     </h3>
     <details class="abstract-toggle">
       <summary>
