@@ -85,6 +85,10 @@
   padding: 0 0 0.4em;
 }
 
+.research-item + .research-item {
+  margin-top: 0.65em;
+}
+
 .research-item h3 {
   display: flex;
   gap: 0.75em;
