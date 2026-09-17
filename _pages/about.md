@@ -46,7 +46,21 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-research" id="research">
+<section class="home-research" id="job-market-paper">
+  <h2>Job Market Paper</h2>
+
+  <article class="research-item">
+    <h3>Of Fathers and Farms: How Intergenerational Persistence Shapes Structural Transformation</h3>
+    <details class="abstract-toggle">
+      <summary>
+        <span class="abstract-label">Abstract</span>
+      </summary>
+      <p class="research-abstract">How much faster could the United States have industrialized if new workers were not more likely to work in their parents' sectors? To study this question, I develop a two-sector general equilibrium Roy model where workers are either more productive or otherwise more attached to their parents' sectors. I show that both mechanisms meaningfully affect the static and dynamic sectoral reallocation of workers in response to labor demand shocks. Taking the model to linked father-son records in census microdata, I find that both mechanisms are quantitatively important sources of intergenerational persistence in sector choice. Counterfactual simulations reveal that eliminating intergenerational persistence altogether increases U.S. industrialization between 1880 and 1940 by 13.3 percent, but this is almost entirely explained by the inherited productivity mechanism.</p>
+    </details>
+  </article>
+</section>
+
+<section class="home-research" id="publications">
   <h2>Publications</h2>
 
   <article class="research-item">
