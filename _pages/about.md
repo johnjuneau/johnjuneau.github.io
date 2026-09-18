@@ -47,7 +47,7 @@ redirect_from:
   </p> -->
 
     <p class="profile-links">
-    View my <a class="cv-link" href="/files/John_Juneau_CV.pdf">CV</a> here.
+    <a class="cv-link" href="/files/John_Juneau_CV.pdf">View my CV here.</a> 
   <!-- <span aria-hidden="true">·</span> <a href="https://github.com/johnjuneau">GitHub</a> -->
     </p>
   </div>
