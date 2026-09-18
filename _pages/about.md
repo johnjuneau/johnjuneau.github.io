@@ -30,8 +30,11 @@ redirect_from:
     </p>
 
     <p>
-    I am an applied macroeconomist studying long-run questions in labor and spatial economics. 
-    My research focuses on structural transformation using micro-to-macro approaches. 
+    I am an applied macroeconomist studying questions relevant to labor and spatial economics.
+    My job market paper studies how intergenerational persistence shapes structural transformation.
+<!-- using micro-to-macro methods.  -->
+<!-- I am an applied macroeconomist studying long-run questions in labor and spatial economics.  -->
+<!-- My research focuses on structural transformation using micro-to-macro approaches.  -->
     </p>
 <!-- I am a macroeconomist working at the intersection of labor, spatial, and public economics.
     I primarily study how differences across households and workers shape aggregate adjustments including long-run labor reallocation and the effects of fiscal policy. -->
