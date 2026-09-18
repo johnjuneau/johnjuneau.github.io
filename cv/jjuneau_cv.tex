@@ -9,10 +9,11 @@
 % License: MIT
 %------------------------------------
 
-\documentclass[a4paper, 10pt]{article}
+\documentclass[a4paper, 11pt]{article}
 \usepackage{myresume}  % Style package
 \usepackage{hyperref}
-\hypersetup{hidelinks}
+\definecolor{linkblue}{HTML}{1A5FB4}
+\hypersetup{colorlinks=true, urlcolor=linkblue}
 
 % --------------------  START  --------------------
 \begin{document}
@@ -22,7 +23,7 @@
   \setstretch{0.6}
   \item {\Calluna (+1) 224-330-7443}  % Phone number
   \item {\Calluna jjuneau@ucsd.edu}  % E-mail address
-  \item {\Calluna \url{johnjuneau.github.io}}  % EWebsite
+  \item {\Calluna \href{https://johnjuneau.github.io}{\underline{johnjuneau.github.io}}}  % Website
   % \item {\Calluna http://www.example.com}  % Home page
 \end{flushright}\vspace{-45pt}
 
@@ -109,10 +110,10 @@ Macroeconomics, Spatial Economics
     % {with Fabian Eckert and Michael Peters \newline \textit{AEA Papers and Proceedings}, Volume 113, May 2023, pp.87-92}
 
   % \vspace{0.35em}
-  \begin{minipage}{\linewidth}
-    \small
+  \noindent\hfill%
+  \begin{minipage}{0.9\linewidth}
     \justifying
-    \textit{\textbf{Abstract.}
+    \textbf{Abstract.}
         \input{../../1_in_progress/persistence_macro_jmp/drafts/main_draft/abstract.tex}
         % New workers drive structural transformation, yet also remain strongly drawn to their parents' sectors.
         % To study how these intergenerational connections shape worker reallocation, I introduce inherited sector-specific productivity and an inherited immobility wedge for farmers' sons into a two-sector Roy model.
@@ -120,8 +121,8 @@ Macroeconomics, Spatial Economics
         % Both mechanisms dampen workers' contemporaneous responses to changing labor demand, but inherited productivity can reverse past reallocation in future generations while inherited immobility reinforces it.
         % Calibrating the model to the U.S. transition out of agriculture from 1880 to 1940, I find that eliminating intergenerational persistence increases worker reallocation by 5.1 percentage points, or 13.3 percent of the observed decline in agricultural employment.
         % Inherited productivity explains nearly all of this effect because its contemporaneous and intergenerational effects reinforce each other, whereas those of inherited immobility offset.
-    }
-  \end{minipage}
+  \end{minipage}%
+  \hfill\mbox{}
 
 % \projHeading
 %     {The Geography of Desperation in America}
@@ -163,7 +164,7 @@ Macroeconomics, Spatial Economics
 {with Byron Lutz}
 
 \projHeading
-{College Wage Premium and Tradable Services}
+{College Wage Premia and Tradable Services}
 {with Fabian Eckert}
 
 }
@@ -223,11 +224,14 @@ Macroeconomics, Spatial Economics
 \sectionBlock{
 \sectionTitle{Teaching Experience}
 }{
+
 \internHeading
   {University of California, San Diego}{San Diego, CA}{2021--Present}
 \itemListStart
+  \myItem{\href{https://badges.parchment.com/public/assertions/U_vPUBS7QPGHKIBTs5GwXA}{\underline{Practitioner in Student-Centered College Teaching}} (Certificate of Recognition)}
   \myItem{ECON 210C: Macroeconomics C (Graduate Core)}
   \myItem{ECON 110A: Long Run Macroeconomics}
+  \myItem{ECON 110B: Short Run Macroeconomics}
   \myItem{ECON 2: Market Imperfections and Policy}
 \itemListEnd
 %   \myItem{Undergraduate Teaching Assistant for: \newline \phantom{321}Market Imperfections and Policy (ECON 2) \newline \phantom{321}Long Run Macroeconomics (ECON 110A)}

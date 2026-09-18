@@ -10,7 +10,7 @@
 \NeedsTeXFormat{LaTeX2e}
 
 % Page size
-\usepackage[top=1.2cm, bottom=2.6cm, left=1.8cm, right=2.3cm, marginparwidth=1.75cm]{geometry}
+\usepackage[top=1cm, bottom=1.5cm, left=1.25cm, right=1.25cm, marginparwidth=1.25cm]{geometry}
 
 % Packages
 \usepackage{xcolor}
@@ -60,12 +60,12 @@
 % Section block
 \newcommand{\sectionBlock}[2]{%
     \noindent
-    \begin{minipage}[t]{2.7cm} % Title
+    \begin{minipage}[t]{2.45cm} % Title
     \raggedright
     #1
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{13.85cm} % Content
+    \end{minipage}%
+    \hspace{0.5cm}%
+    \begin{minipage}[t]{\dimexpr\linewidth-3.05cm\relax} % Content
     \raggedright
     #2
     \end{minipage}
@@ -83,7 +83,7 @@
 % inserted by the document-level \section command.
 \newcommand{\sectionTitle}[1]{%
   {\setstretch{1.0}\CronosLt\scshape\raggedright
-   \fontsize{14.5pt}{14.5pt}\selectfont #1\par}%
+   \fontsize{14pt}{14pt}\selectfont #1\par}%
 }
 
 % Section content
@@ -112,7 +112,7 @@
 % Education information
 \newcommand{\eduHeading}[4]{
   \renewcommand{\arraystretch}{1.2}
-    \begin{tabular}[t]{@{}p{13.74cm}@{}}
+    \begin{tabular}[t]{@{}p{\linewidth}@{}}
       \emph{#1} \hfill #2 \\
       \textit{#3} \hfill #4 \\
     \end{tabular}\vspace{-7pt}
@@ -121,7 +121,7 @@
 % Internship information
 \newcommand{\internHeading}[3]{
   \renewcommand{\arraystretch}{1.2}
-    \begin{tabular}[t]{@{}p{13.74cm}@{}}
+    \begin{tabular}[t]{@{}p{\linewidth}@{}}
       \emph{#1} $|$ #2 \hfill #3 \\
     \end{tabular}\vspace{-7pt}
 }
@@ -129,7 +129,7 @@
 % Project information
 \newcommand{\projHeading}[3]{
   \renewcommand{\arraystretch}{1.2}
-    \begin{tabular}[t]{@{}p{13.74cm}@{}}
+    \begin{tabular}[t]{@{}p{\linewidth}@{}}
       \textbf{#1} \hfill \\
       \textit{#2} \hfill #3 \\
     \end{tabular}\vspace{2pt}
