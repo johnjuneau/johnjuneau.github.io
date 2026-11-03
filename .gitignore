@@ -1,2 +1,9 @@
 _site/
 
+# LaTeX intermediates generated while building CVs and resumes.
+cv/*.aux
+cv/*.fdb_latexmk
+cv/*.fls
+cv/*.log
+cv/*.out
+cv/*.xdv

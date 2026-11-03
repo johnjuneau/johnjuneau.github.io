@@ -1,0 +1,189 @@
+% !TeX program = xelatex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,top=0.34in,bottom=0.46in,left=0.68in,right=0.68in]{geometry}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{tikz}
+
+% Typography shared with the academic CV, arranged here in a more modern style.
+\setmainfont{SabonLTStd}[
+  Path=Fonts/Sabon/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic,
+  BoldItalicFont=*-BoldItalic
+]
+\newfontfamily\headingfont{CronosProLT}[
+  Path=Fonts/Cronos/,
+  Extension=.ttf,
+  UprightFont=*-Regular
+]
+
+\definecolor{navy}{HTML}{15324A}
+\definecolor{teal}{HTML}{2D8C8C}
+\definecolor{ink}{HTML}{202B33}
+\definecolor{slate}{HTML}{536571}
+\definecolor{mist}{HTML}{DCE7EA}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=teal,
+  pdfauthor={John Juneau},
+  pdftitle={John Juneau Resume}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\color{ink}
+\linespread{1.015}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=1.5em
+
+\setlist[itemize]{
+  leftmargin=1.15em,
+  itemsep=1.1pt,
+  topsep=2.2pt,
+  parsep=0pt,
+  partopsep=0pt,
+  before=\raggedright,
+  label=\textcolor{teal}{\raisebox{0.18ex}{\rule{0.45ex}{0.45ex}}}
+}
+
+\titleformat{\section}
+  {\headingfont\fontsize{11.2}{12}\selectfont\color{navy}}
+  {}{0pt}
+  {\textcolor{teal}{\rule[-0.12em]{2.6pt}{0.95em}}\hspace{0.55em}\addfontfeatures{LetterSpace=3}\MakeUppercase}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\linewidth}{@{}Xr@{}}
+    {\fontsize{10.35}{11.5}\selectfont\bfseries\color{navy}#1} &
+    {\headingfont\fontsize{9.2}{10.5}\selectfont\color{slate}#2} \\
+    {\fontsize{9.7}{10.8}\selectfont\itshape#3} &
+    {\headingfont\fontsize{9.2}{10.5}\selectfont\color{teal}#4}
+  \end{tabularx}\vspace{-1.5pt}
+}
+
+\newcommand{\project}[2]{%
+  \begin{tabularx}{\linewidth}{@{}Xr@{}}
+    {\bfseries\color{navy}#1} &
+    {\headingfont\fontsize{9.1}{10}\selectfont\color{slate}#2}
+  \end{tabularx}\vspace{-1.5pt}
+}
+
+\newcommand{\skilllabel}[1]{%
+  {\headingfont\fontsize{9.2}{10}\selectfont\color{teal}\addfontfeatures{LetterSpace=1.5}\MakeUppercase{#1}}%
+}
+
+\begin{document}
+
+% Full-width header treatment.
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[navy] (current page.north west) rectangle ([yshift=-1.48in]current page.north east);
+  \fill[teal] ([yshift=-1.48in]current page.north west) rectangle ([yshift=-1.53in]current page.north east);
+\end{tikzpicture}
+
+\color{white}
+{\fontsize{30}{32}\selectfont\bfseries John Juneau}\par
+\vspace{1pt}
+{\headingfont\fontsize{10.2}{12}\selectfont\addfontfeatures{LetterSpace=5}
+  APPLIED ECONOMIST \enspace\textcolor{teal}{\textbullet}\enspace QUANTITATIVE RESEARCHER
+}\par
+\vspace{9pt}
+{\headingfont\fontsize{8.9}{10.5}\selectfont
+  San Diego, CA
+  \enspace\textcolor{teal}{\textbullet}\enspace
+  \href{tel:+12243307443}{\textcolor{white}{224-330-7443}}
+  \enspace\textcolor{teal}{\textbullet}\enspace
+  \href{mailto:jjuneau@ucsd.edu}{\textcolor{white}{jjuneau@ucsd.edu}}
+  \enspace\textcolor{teal}{\textbullet}\enspace
+  \href{https://www.linkedin.com/in/john-juneau-016022100/}{\textcolor{white}{LinkedIn}}
+  \enspace\textcolor{teal}{\textbullet}\enspace
+  \href{https://johnjuneau.github.io}{\textcolor{white}{johnjuneau.github.io}}
+}\par
+
+\vspace{0.31in}
+\color{ink}
+
+\section{Profile}
+Applied economist and Ph.D. candidate with 7+ years of experience turning complex data into decision-relevant evidence. Expertise in causal inference, quantitative modeling, and large-scale microdata, with experience spanning the Federal Reserve, Brookings Institution, and academic research.
+
+\section{Experience}
+\entry{Federal Reserve Board of Governors}{Washington, DC}{Summer Dissertation Fellow; Senior Research Assistant, Fiscal Analysis}{2025; 2018--2021}
+\begin{itemize}
+  \item Returned as a dissertation fellow to advance policy-relevant research on labor reallocation and long-run economic change.
+  \item Conducted empirical research in the Division of Research and Statistics and received a Special Achievement Award in 2020.
+  \item Coordinated and taught in a data-analysis course for Howard University undergraduate and graduate economics students.
+\end{itemize}
+
+\vspace{2pt}
+\entry{University of California, San Diego}{San Diego, CA}{Doctoral Researcher, Department of Economics}{2021--Present}
+\begin{itemize}
+  \item Built reproducible workflows in Stata, R, and MATLAB to analyze labor, spatial, and public-policy questions.
+  \item Combined linked, full-count U.S. Census records with a quantitative model to measure how family background affects worker mobility and structural change.
+  \item Co-developed a causal analysis of 30 years of income-tax microdata using panel methods, event studies, and local projections to estimate employment responses to state tax changes.
+\end{itemize}
+
+\vspace{2pt}
+\entry{Brookings Institution}{Washington, DC}{Research Assistant to Carol Graham}{2017}
+\begin{itemize}
+  \item Supported research on the geography of economic opportunity and well-being in the United States.
+\end{itemize}
+
+\section{Selected Impact}
+\project{Labor mobility and U.S. industrialization}{Independent doctoral research}
+\begin{itemize}
+  \item Linked historical father--son Census records and estimated a structural model; found that intergenerational persistence slowed U.S. industrialization by \textbf{23.2\%}.
+\end{itemize}
+
+\project{State tax policy and employment}{With Byron Lutz}
+\begin{itemize}
+  \item Found positive employment responses to tax cuts broadly targeted toward lower-income households, with no corresponding evidence for cuts targeted at the highest-income households.
+\end{itemize}
+
+\project{Sprouting Cities: How Rural America Industrialized}{AEA Papers and Proceedings, 2023}
+\begin{itemize}
+  \item Coauthored peer-reviewed research on the role of emerging rural cities in the U.S. transition from agriculture to industry.
+\end{itemize}
+
+\vspace{1pt}
+\noindent
+\begin{minipage}[t]{0.515\textwidth}
+  \section{Education}
+  {\bfseries\color{navy}University of California, San Diego}\par
+  \textit{Ph.D. Candidate in Economics} \hfill {\headingfont\color{teal}2021--Present}\par
+  \vspace{3pt}
+  {\bfseries\color{navy}Washington and Lee University}\par
+  \textit{B.A. in Economics with honors} \hfill {\headingfont\color{teal}2018}\par
+  {\fontsize{9.2}{10.2}\selectfont Minors in Mathematics and Poverty Studies}
+\end{minipage}%
+\hfill
+\textcolor{mist}{\vrule width 0.7pt}%
+\hfill
+\begin{minipage}[t]{0.43\textwidth}
+  \raggedright
+  \section{Toolkit}
+  \skilllabel{Advanced}\quad Stata, R, MATLAB, Excel, LaTeX\par
+  \vspace{2pt}
+  \skilllabel{Working knowledge}\quad Python, FAME\par
+  \vspace{2pt}
+  \skilllabel{Methods}\quad Causal inference, panel data, event studies, local projections, quantitative modeling
+\end{minipage}
+
+\vfill
+{\color{mist}\rule{\textwidth}{0.7pt}}\par
+\vspace{2pt}
+{\headingfont\fontsize{8.8}{10}\selectfont\color{slate}
+  \textcolor{teal}{RECOGNITION}\quad National Science Foundation Graduate Research Fellowship (2021)
+  \enspace\textbullet\enspace Federal Reserve Board Special Achievement Award (2020)
+}
+
+\end{document}

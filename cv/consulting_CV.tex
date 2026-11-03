@@ -1,0 +1,206 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+% Consulting-oriented CV for Ph.D.-level economist positions.
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{myresume}
+\usepackage{hyperref}
+\definecolor{linkblue}{HTML}{1A5FB4}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  pdfauthor={John Juneau},
+  pdftitle={John Juneau Consulting CV}
+}
+
+% Preserve the academic CV's two-column structure while tightening the spacing
+% slightly for a readable two-page consulting document.
+\renewcommand{\sectionBlock}[2]{%
+  \noindent
+  \begin{minipage}[t]{2.45cm}
+    \raggedright #1
+  \end{minipage}%
+  \hspace{0.5cm}%
+  \begin{minipage}[t]{\dimexpr\linewidth-3.05cm\relax}
+    \raggedright #2
+  \end{minipage}
+  \vspace{18pt}
+}
+
+\newcommand{\researchHeading}[3]{%
+  \begin{tabularx}{\linewidth}[t]{@{}Xr@{}}
+    \textbf{#1} & {\small #3} \\
+    \textit{#2} &
+  \end{tabularx}\vspace{1pt}
+}
+
+\newcommand{\consultListStart}{%
+  \begin{itemize}[leftmargin=1.15em,label=\textbullet,itemsep=1.5pt,
+                  topsep=3pt,parsep=0pt,partopsep=0pt]
+}
+\newcommand{\consultListEnd}{\end{itemize}}
+
+\newcommand{\experienceHeading}[4]{%
+  \begin{tabularx}{\linewidth}[t]{@{}Xr@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{1pt}
+}
+
+\begin{document}
+
+% -------------------- HEADING --------------------
+\begin{flushright}
+  \setstretch{0.6}
+  \item {\Calluna (+1) 224-330-7443}
+  \item {\Calluna jjuneau@ucsd.edu}
+  \item {\Calluna \href{https://johnjuneau.github.io}{\underline{johnjuneau.github.io}}}
+  \item {\Calluna \href{https://www.linkedin.com/in/john-juneau-016022100/}{\underline{LinkedIn}}}
+\end{flushright}\vspace{-58pt}
+
+\begin{flushleft}
+  {\Calluna \fontsize{30pt}{30pt}\selectfont \textsc{John Juneau}}\\[-1pt]
+  {\CronosLt \fontsize{12.5pt}{14pt}\selectfont Economics Ph.D. Candidate}
+  \noindent\rule{\textwidth}{0.4pt}
+\end{flushleft}
+
+% -------------------- EDUCATION --------------------
+\sectionBlock{
+\sectionTitle{Education}
+}{
+\experienceHeading
+  {University of California, San Diego}{San Diego, CA}
+  {Ph.D. in Economics, expected June 2027}{2021--Present}
+\vspace{6pt}
+
+\experienceHeading
+  {Washington and Lee University}{Lexington, VA}
+  {B.A. in Economics with honors}{2014--2018}
+\vspace{3pt}
+Minors in Mathematics and Poverty and Human Capability Studies
+}
+
+% -------------------- FIELDS --------------------
+\sectionBlock{
+\sectionTitle{Fields}
+}{
+Macroeconomics, Labor Economics, Spatial Economics
+% Labor Economics, Spatial Economics, Applied Econometrics
+}
+
+% -------------------- RESEARCH --------------------
+\sectionBlock{
+\sectionTitle{Research}
+}{
+{\CronosLt\fontsize{12pt}{13pt}\selectfont\textsc{Job Market Paper}}\par
+\vspace{3pt}
+\researchHeading
+  {\href{https://johnjuneau.github.io/files/of-fathers-and-farms.pdf}{Of Fathers and Farms: How Intergenerational Persistence Shapes Structural Transformation}}
+  {} 
+  {}
+Uses linked father--son records from historical U.S. Census microdata and a model of structural change to estimate how inherited skills and preferences shape sector choice across generations. The model accounts for endogenous selection and estimates these mechanisms from observed sector choices and earnings distributions. Counterfactual simulations imply that intergenerational persistence slowed U.S. industrialization from 1880 to 1940 by 23.2 percent, almost entirely through inherited skills; omitting persistence also substantially overstates the relative nonagricultural technology growth needed to explain the transition.
+
+\vspace{10pt}
+{\CronosLt\fontsize{12pt}{13pt}\selectfont\textsc{Publication}}\par
+\vspace{3pt}
+\researchHeading
+  {\href{https://johnjuneau.github.io/files/paper_pub_aeapandp_ejp_2023.pdf}{Sprouting Cities: How Rural America Industrialized}}
+  {with Fabian Eckert and Michael Peters}
+  {2023}
+\textit{AEA Papers and Proceedings}, Volume 113, pp. 87--92. Examines how the emergence of new cities in rural America contributed to the U.S. transition from agriculture to industry.
+
+\vspace{10pt}
+{\CronosLt\fontsize{12pt}{13pt}\selectfont\textsc{Work in Progress}}\par
+\vspace{3pt}
+\researchHeading
+  {\href{https://johnjuneau.github.io/files/state-tax-cuts.pdf}{The Stimulative Effect of State Tax Cuts Across the Income Distribution}}
+  {with Byron Lutz}
+  {}
+Uses thirty years of detailed income-tax-return microdata and multiple panel-data research designs, including event-study local projections, to estimate how the distributional targeting of state income-tax changes affects employment. Finds positive employment responses to broadly targeted tax cuts, with no corresponding evidence for cuts targeted at the highest-income households.
+
+\vspace{8pt}
+\researchHeading
+  {College Wage Premia and Tradable Services}
+  {with Fabian Eckert}
+  {}
+% Studies how the expansion and geography of tradable services shape regional college wage premia and wage inequality.
+}
+
+% -------------------- TECHNICAL SKILLS --------------------
+\sectionBlock{
+\sectionTitle{Technical\\Skills}
+}{
+\skillListStart
+  \item \emph{Programming and analysis}: Stata, R, MATLAB, Excel, \LaTeX{} (advanced); Python and FAME (basic)
+  \item \emph{Methods}: panel-data methods, event studies, local projections, structural estimation and calibration, counterfactual analysis, large-scale microdata construction
+  \item \emph{Languages}: English (native), Spanish (basic)
+\skillListEnd
+}
+
+\newpage
+\vspace*{0.22in}
+
+% -------------------- PROFESSIONAL EXPERIENCE --------------------
+\sectionBlock{
+\sectionTitle{Experience}
+}{
+\experienceHeading
+  {Federal Reserve Board of Governors}{Washington, DC}
+  {Summer Dissertation Fellow; Senior Research Assistant, Fiscal Analysis}{2025; 2018--2021}
+\consultListStart
+  \item Maintained and analyzed databases of government receipts and outlays and supported projections of fiscal and macroeconomic indicators, including fiscal impetus and the primary deficit.
+  \item Constructed and cleaned data and conducted statistical and econometric analysis, programming, and visualization for research projects in the Division of Research and Statistics.
+  \item Independently carried out substantive empirical analysis and collaborated with professional economists on fiscal-policy research.
+  \item Returned in 2025 as a Summer Dissertation Fellow to advance independent research on labor reallocation and long-run economic change.
+\consultListEnd
+
+\vspace{7pt}
+\experienceHeading
+  {University of California, San Diego}{San Diego, CA}
+  {Research Assistant for Fabian Eckert}{2022}
+
+\vspace{7pt}
+\experienceHeading
+  {Brookings Institution}{Washington, DC}
+  {Research Assistant for Carol Graham}{2017}
+
+\vspace{7pt}
+\experienceHeading
+  {Washington and Lee University}{Lexington, VA}
+  {Research Assistant for Katie Shester and Chris Handy}{2016--2018}
+}
+
+% -------------------- AWARDS --------------------
+\sectionBlock{
+\sectionTitle{Awards\\and\\Honors}
+}{
+\awardListStart
+  \item \emph{TA Excellence Award}, University of California, San Diego \hfill 2024
+  \item \emph{Graduate Research Fellowship}, National Science Foundation \hfill 2021
+  \item \emph{Special Achievement Award}, Federal Reserve Board of Governors \hfill 2020
+  \item \emph{Kim Family Prize}, Washington and Lee University \hfill 2018
+  \item \emph{QuestBridge National College Match}, Washington and Lee University \hfill 2014
+\awardListEnd
+}
+
+% -------------------- TEACHING --------------------
+\sectionBlock{
+\sectionTitle{Teaching}
+}{
+\experienceHeading
+  {University of California, San Diego}{San Diego, CA}
+  {Teaching Assistant}{2021--Present}
+Graduate Macroeconomics; Long Run Macroeconomics; Short Run Macroeconomics; Market Imperfections and Policy. \href{https://badges.parchment.com/public/assertions/U_vPUBS7QPGHKIBTs5GwXA}{\underline{Practitioner in Student-Centered College Teaching}} certificate.
+
+\vspace{7pt}
+\experienceHeading
+  {Federal Reserve Board of Governors}{Washington, DC}
+  {Project Coordinator and Teaching Assistant, Howard University Data Analysis Course}{2018--2020}
+
+\vspace{7pt}
+\experienceHeading
+  {Washington and Lee University}{Lexington, VA}
+  {Teaching Assistant, Econometrics and Introduction to Statistics}{2016--2018}
+}
+
+\end{document}

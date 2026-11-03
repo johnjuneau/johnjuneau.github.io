@@ -126,6 +126,11 @@ include:
   - _pages
   - files
 exclude:
+  # Keep private application materials in the repository without publishing them.
+  - cv/jjuneau_resume.tex
+  - cv/jjuneau_resume.pdf
+  - cv/consulting_CV.tex
+  - cv/consulting_CV.pdf
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
